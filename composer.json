@@ -31,7 +31,8 @@
         "spatie/laravel-html": "^3.11",
         "spatie/laravel-permission": "^6.13",
         "spatie/laravel-translatable": "^6.10",
-        "stevebauman/location": "^7.4"
+        "stevebauman/location": "^7.4",
+        "stripe/stripe-php": "^16.5"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.14",
