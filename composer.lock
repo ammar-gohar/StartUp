@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2473edb6cbd877493df6dd202b82dbf5",
+    "content-hash": "92ee700031d396d81da6fe333e5f2465",
     "packages": [
         {
             "name": "anhskohbo/no-captcha",
@@ -1880,6 +1880,73 @@
                 }
             ],
             "time": "2025-02-01T07:28:26+00:00"
+        },
+        {
+            "name": "jrean/laravel-user-verification",
+            "version": "v12.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jrean/laravel-user-verification.git",
+                "reference": "114e67354f1ec6c7b350587a274d2759ab08b011"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jrean/laravel-user-verification/zipball/114e67354f1ec6c7b350587a274d2759ab08b011",
+                "reference": "114e67354f1ec6c7b350587a274d2759ab08b011",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^6.0 || ^7.0 || ^8.0|^9.0|^10.0|^11.0",
+                "php": ">=7.2.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^1.12|^3.5",
+                "fzaninotto/faker": "^1.9|^1.5",
+                "mockery/mockery": "^1.3",
+                "phpunit/phpunit": "^7.0|^8.0|^9.0|^10.0|^11.0",
+                "satooshi/php-coveralls": "^2.0|^1.0",
+                "sllh/php-cs-fixer-styleci-bridge": "^2.1"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "aliases": {
+                        "UserVerification": "Jrean\\UserVerification\\Facades\\UserVerification"
+                    },
+                    "providers": [
+                        "Jrean\\UserVerification\\UserVerificationServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Jrean\\UserVerification\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jean Ragouin",
+                    "email": "go@askjong.com"
+                }
+            ],
+            "description": "User Email Verification For Laravel",
+            "keywords": [
+                "email activation",
+                "email verification",
+                "framework",
+                "laravel",
+                "user activation",
+                "user verification"
+            ],
+            "support": {
+                "issues": "https://github.com/jrean/laravel-user-verification/issues",
+                "source": "https://github.com/jrean/laravel-user-verification/tree/v12.0.0"
+            },
+            "time": "2024-07-02T15:04:21+00:00"
         },
         {
             "name": "laravel/fortify",
