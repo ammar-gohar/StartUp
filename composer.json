@@ -30,7 +30,8 @@
         "spatie/laravel-backup": "^9.2",
         "spatie/laravel-html": "^3.11",
         "spatie/laravel-permission": "^6.13",
-        "spatie/laravel-translatable": "^6.10"
+        "spatie/laravel-translatable": "^6.10",
+        "stevebauman/location": "^7.4"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.14",
